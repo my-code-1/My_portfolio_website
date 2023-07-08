@@ -68,6 +68,7 @@ nav a{
 .banner .profile_picture{
     width: 300px;
     height: 400px;
+    border-radius: 5px;
 }
 .banner_gretting{
     font-size: 45px;
