@@ -12,6 +12,17 @@ color:white;
 font-weight: 700;
 padding:15px 35px;
 }
+.section_title{
+    color:  #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.section_description{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+}
 /* nav related styles */
 nav{
     display: flex;
@@ -19,6 +30,7 @@ nav{
     align-items: center;
     margin: 0 200px;
 }
+
 .nav_title{
 color: #181818;
 font-size: 45px;
@@ -72,21 +84,21 @@ nav a{
     max-width: 500px;
 }
 /* main section style */
+main{
+    width: 1140px;
+    margin:0 auto;
+}
+
+.info_container{
+    display: flex;
+    justify-content: space-around;
+}
+.about_info{
+    text-align: center;
+}
 .about{
-        padding :130px;
-        border-radius: 10px;
-    background-color: #FFF8F3;
-    margin: 130px 230px;
-    }
-.section_title{
-        color: #181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
-    }
-.section_description{
-        color: #757575;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
+    padding:130px;
+    border-radius: 10px;
+ background: #FFF8F3;
+ margin:130px 0;
 }
